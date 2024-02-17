@@ -6,27 +6,28 @@
     font-family: "Inter", sans-serif;
 }
 #navbar{
-    height:30px;
-    background-color: black;
+    height:32px;
+    background-color: #027b93;
+    font-weight: 500;
     box-sizing: border-box;
     line-height: 1.8;
     position: sticky;
     top:0;
 } 
+html{
+    scroll-behavior: smooth;
+}
 
 #heading{
-    color: white;
-    padding:0px 730px 0px 20px;
-}
-#heading:hover{
-    color: lightseagreen;
+    color:black;
+    padding:0px 720px 0px 20px;
 }
 .content_title>a{
     text-decoration: none;
-    color: white;
+    color: black;
 }
 .content_title>a:hover{
-    color: lightseagreen;
+    color: white;
 }
 .content_title{
     padding-right: 15px;
@@ -41,7 +42,7 @@ div{
     margin: auto;
 }
 table,th,td{
-    border:1px solid black;
+    border:1px solid gray;
     border-collapse: collapse;
 }
 #books{
@@ -84,11 +85,14 @@ label,input{
 }
 button{
     width: 703px;
-    color: white;
-    background-color: black;
+    height: 20px;
+    color:black;
+    background-color: #027b93;
+    border: 1px solid black;
+    font-weight: 500;
 }
 button:hover{
-    color: lightseagreen;
+    color: white;
 }
 
 
