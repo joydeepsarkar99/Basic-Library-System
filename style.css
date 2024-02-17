@@ -92,7 +92,7 @@ button{
     font-weight: 500;
 }
 button:hover{
-    color: white;
+    background-color:  #027b939f;
 }
 
 
