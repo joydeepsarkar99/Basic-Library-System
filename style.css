@@ -6,13 +6,14 @@
     font-family: "Inter", sans-serif;
 }
 #navbar{
-    height:32px;
+    height:45px;
     background-color: #027b93;
-    font-weight: 500;
+    font-weight: 600;
     box-sizing: border-box;
-    line-height: 1.8;
+    line-height: 2;
     position: sticky;
     top:0;
+    font-size: 21px;
 } 
 html{
     scroll-behavior: smooth;
@@ -20,7 +21,7 @@ html{
 
 #heading{
     color:black;
-    padding:0px 720px 0px 20px;
+    padding:0px 1110px 0px 35px;
 }
 .content_title>a{
     text-decoration: none;
@@ -30,7 +31,7 @@ html{
     color: white;
 }
 .content_title{
-    padding-right: 15px;
+    padding-right: 20px;
 }
 body{
     background-color: rgb(233, 236, 239);
@@ -38,7 +39,7 @@ body{
 
 div{
     background-color: white;
-    width: 750px;
+    width: 850px;
     margin: auto;
 }
 table,th,td{
@@ -49,23 +50,31 @@ table,th,td{
     margin-top: 20px;
     padding-bottom: 15px;
 }
-h3{
+h2{
     margin:0px 0px 10px 24px ;
     line-height: 2;
 }
 #book_content{
-    width:700px;
-    font-size: 12px;
+    width:800px;
+    height:500px;
+    font-size: 16px;
     text-align: center;
     margin-inline: auto;
 }
+#book_content>thead>tr>th{
+    height:30px;
+}
 .table_cell_content{
-    width:150px;
-    font-size: 10px;
+    width:200px;
+    height:80px;
+    font-size: 14px;
     text-align: left;
     margin-inline: auto;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.table_cell_content>tbody>tr>td{
+    font-weight: 500;
 }
 #registration{
     margin-top: 45px;
@@ -76,19 +85,21 @@ h3{
     margin-left: 24px;
 }
 .input_field{
-    width:700px;
+    width:800px;
+    height:28px;
 }
 label,input{
-    margin: 5px 0px;
-    font-size: 12px;
-    font-weight: 500;
+    margin: 8px 0px;
+    font-size: 16px;
+    font-weight: 600;
 }
 button{
-    width: 703px;
-    height: 20px;
+    width: 803px;
+    height: 30px;
     color:black;
     background-color: #027b93;
     border: 1px solid black;
+    font-size: 16px;
     font-weight: 500;
 }
 button:hover{
